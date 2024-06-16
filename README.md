@@ -30,8 +30,7 @@
 _Опишите в этом разделе, как запустить ваше решение, где должен запуститься сервис, как им пользоваться. Если вы хотите сообщить пользователям и проверяющим дополнительную информацию, сделайте это здесь._
 
 ```bash
-git clone <link/to/your/repo>
-cd <your_repo_name>
-docker built <parameters>
-docker run <parameters>
+git clone https://gitlab.skillbox.ru/malevanaia_mariia/myapp-image.git
+docker build -t myapp-image .
+docker run -p 8000:8000 myapp-image
 ```
