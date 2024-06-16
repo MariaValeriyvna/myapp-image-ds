@@ -1,4 +1,26 @@
 __pycache__/
+*.py[cod]
+*$py.class
+
 .ipynb_checkpoints/
 *env/
-emnist.zip
+
+# VS Code
+.vscode/
+
+# Data files
+*.gz
+*.zip
+
+# Ignore emnist data files (if not needed)
+gzip/
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Logs and temp files
+logs/
+*.log
+tmp/
+temp/

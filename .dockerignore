@@ -1,0 +1,24 @@
+# Ignore the same files as in .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore VS Code directories
+.vscode/
+
+# Ignore PyCharm directories
+.idea/
+
+# Ignore data files and archives
+*.gz
+*.zip
+gzip/
+
+# Ignore logs and temp files
+logs/
+*.log
+tmp/
+temp/
